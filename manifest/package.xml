@@ -11,6 +11,12 @@
       <name>AppMenu</name>
     </types>
 
+  
+     <types>
+      <members>Teste </members>
+      <name>ApexClass</name>
+    </types>
+
      <types>
       <members>ecm_UtilityBar</members>
       <name>FlexiPage</name>
