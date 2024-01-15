@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>ecm</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <custom>true</custom>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Professeur__c.prenom__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>eleve__c.prenom__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>Professeur__c-Professeur Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>eleve__c-eleve Layout</layout>
+    </layoutAssignments>
+    <tabVisibilities>
+        <tab>Professeur__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>eleve__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <userLicense>External Apps Login</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EnableNotifications</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SelectFilesFromSalesforce</name>
+    </userPermissions>
+</Profile>
